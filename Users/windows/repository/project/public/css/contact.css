@@ -1,0 +1,33 @@
+body {
+	background-image: url(../pictures/background.jpg);
+	background-size: 100% 110%;
+}
+
+p {
+	font-size: 0.75em;
+}
+
+/*MEDIA QUERIES*/
+/*TABLET*/
+@media (min-width: 798px) {
+
+	body {
+		background-size: 100% 120% ;
+	}
+
+	p {
+		font-size: 1em;
+	}
+}
+
+/*DESKTOP*/
+@media (min-width: 1024px) {
+
+	body {
+		background-size: 100% 110%;
+	}
+
+	p {
+		font-size: 1.25em;
+	}
+}

@@ -1,0 +1,28 @@
+/*GENERAL*/
+
+a {
+	display: inline-block;
+	text-decoration: none;
+	color: #FFF;
+	background-color: #B40404;
+	padding: 10px;
+	margin: 10px;
+}
+
+ul {
+	list-style-type: none;
+	margin-left: 0;
+	padding-left: 0;
+}
+
+img {
+	width: 50%;
+}
+
+p {
+	font-size: 0.75em;
+}
+
+h1 {
+	color: #B40404;
+}

@@ -1,0 +1,46 @@
+body {
+	background-image: url(../pictures/background.jpg);
+	background-size: 100% 270%;
+}
+
+a {
+	text-decoration: none;
+	color: #FFF;
+}
+
+fieldset {
+	border: 0;
+}
+
+h1 {
+	color: #B40404;
+}
+
+p {
+	font-size: 0.75em;
+}
+
+/*MEDIA QUERIES*/
+/*TABLET*/
+@media (min-width: 798px) {
+
+	body {
+		background-size: 100% 265%;
+	}
+
+	p {
+		font-size: 1em;
+	}
+}
+
+/*DESKTOP*/
+@media (min-width: 1024px) {
+
+	body {
+		background-size: 100% 285%;
+	}
+
+	p {
+		font-size: 1.25em;
+	}
+}
